@@ -1,0 +1,63 @@
+
+Sep 21, 2016 13:31:48.63 NEW SESSION
+Sep 21, 2016 13:31:48.63 [GFX1]: Potential driver version mismatch ignored due to missing DLLs
+Sep 21, 2016 13:31:48.74 [GFX1-]: VendorIDMismatch V 0x8086 0x1414
+Sep 21, 2016 13:35:52.23 [GFX1]: Potential driver version mismatch ignored due to missing DLLs
+Sep 21, 2016 13:35:52.29 [GFX1-]: VendorIDMismatch V 0x8086 0x1414
+Sep 21, 2016 13:39:32.48 [GFX1]: Potential driver version mismatch ignored due to missing DLLs
+Sep 21, 2016 13:39:32.54 [GFX1-]: VendorIDMismatch V 0x8086 0x1414
+Sep 21, 2016 13:41:16.80 [GFX1]: Potential driver version mismatch ignored due to missing DLLs
+Sep 21, 2016 13:41:16.86 [GFX1-]: VendorIDMismatch V 0x8086 0x1414
+Sep 21, 2016 13:47:18.93 1474445838944	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Sep 21, 2016 13:47:19.19 1474445839212	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Sep 21, 2016 13:47:19.74 1474445839745	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Sep 21, 2016 13:58:05.45 [GFX1]: Potential driver version mismatch ignored due to missing DLLs
+Sep 21, 2016 13:58:05.52 [GFX1-]: VendorIDMismatch V 0x8086 0x1414
+
+Sep 22, 2016 13:35:54.72 NEW SESSION
+Sep 22, 2016 13:35:54.72 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+Sep 22, 2016 13:35:54.87 [GFX1-]: VendorIDMismatch V 0x8086 0x1414
+Sep 22, 2016 13:36:09.58 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+Sep 22, 2016 13:36:09.66 [GFX1-]: VendorIDMismatch V 0x8086 0x1414
+Sep 22, 2016 13:36:51.76 Vector smash protection is enabled.
+Sep 22, 2016 13:37:08.63 [NPAPI 6380] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 333
+Sep 22, 2016 13:37:17.04 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+Sep 22, 2016 13:37:17.10 [GFX1-]: VendorIDMismatch V 0x8086 0x1414
+Sep 22, 2016 13:47:23.98 1474532243986	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Sep 22, 2016 13:47:24.09 1474532244092	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Sep 22, 2016 13:47:24.35 1474532244351	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Sep 22, 2016 14:20:39.54 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+Sep 22, 2016 14:20:56.27 [Child 3212] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 333
+Sep 22, 2016 14:57:42.23 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+Sep 22, 2016 14:57:42.29 [GFX1-]: VendorIDMismatch V 0x8086 0x1414
+
+Sep 26, 2016 14:21:08.58 NEW SESSION
+Sep 26, 2016 14:21:08.58 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+Sep 26, 2016 14:21:08.79 [GFX1-]: VendorIDMismatch V 0x8086 0x1414
+Sep 26, 2016 14:21:40.12 Vector smash protection is enabled.
+Sep 26, 2016 14:21:49.89 [NPAPI 4248] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 343
+Sep 26, 2016 14:26:27.99 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+Sep 26, 2016 14:26:28.05 [GFX1-]: VendorIDMismatch V 0x8086 0x1414
+Sep 26, 2016 16:53:36.33 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+Sep 26, 2016 16:53:36.41 [GFX1-]: VendorIDMismatch V 0x8086 0x1414
+Sep 26, 2016 17:02:01.20 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+Sep 26, 2016 17:02:01.25 [GFX1-]: VendorIDMismatch V 0x8086 0x1414
+Sep 26, 2016 17:03:03.21 1474889583210	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Sep 26, 2016 17:12:02.11 1474890122111	addons.repository	WARN	Search failed when repopulating cache
+Sep 26, 2016 17:12:02.87 1474890122877	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Sep 26, 2016 17:12:02.89 1474890122889	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Sep 26, 2016 17:12:02.97 1474890122978	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Sep 26, 2016 17:12:03.07 1474890123077	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Sep 26, 2016 17:12:03.75 1474890123759	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Sep 26, 2016 17:12:03.76 1474890123762	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Sep 26, 2016 17:12:03.77 1474890123777	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Sep 26, 2016 17:12:04.48 1474890124486	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Sep 26, 2016 17:12:05.15 1474890125154	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Sep 26, 2016 17:12:05.15 1474890125155	addons.manager	WARN	Failed to update system addons: Error: Failed downloading XML, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:111:16) JS Stack trace: downloadXML/</fail@ProductAddonChecker.jsm:111:16
+
+Sep 26, 2016 17:22:23.31 NEW SESSION
+Sep 26, 2016 17:22:23.31 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+Sep 26, 2016 17:22:23.37 [GFX1-]: VendorIDMismatch V 0x8086 0x1414
+Sep 26, 2016 17:22:37.13 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+Sep 26, 2016 17:22:37.20 [GFX1-]: VendorIDMismatch V 0x8086 0x1414
+Sep 26, 2016 17:23:39.34 1474890819339	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error

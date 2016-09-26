@@ -1,0 +1,8 @@
+package helloController;
+
+import org.springframework.*;
+
+@Controller
+public class HelloController {
+
+}

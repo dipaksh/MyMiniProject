@@ -1,0 +1,7 @@
+package helloController;
+
+
+//@Controller
+public class HelloController {
+
+}

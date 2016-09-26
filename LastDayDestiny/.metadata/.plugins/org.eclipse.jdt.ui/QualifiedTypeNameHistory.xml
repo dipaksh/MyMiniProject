@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="model.User"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
+<fullyQualifiedTypeName name="javax.jws.WebParam.Mode"/>
+<fullyQualifiedTypeName name="org.springframework.web.portlet.ModelAndView"/>
+<fullyQualifiedTypeName name="org.springframework.ui.ModelMap"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,118 @@
+package model;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class User 
+{
+	static String username;
+	static String useremail;
+	static String userpassword;
+	static String userquestion;
+	static String useranswer;
+	static Connection con=Connect.getConnection();
+	static Statement stmt=Connect.getStatement();
+	static ResultSet rs=null;
+	static int userid=0;
+	
+	
+	public static boolean registerUser(String username1, String useremail1, String userpassword1,
+			String userquestion1, String useranswer1) throws SQLException 
+	{
+		int i=0;
+		username = username1;
+		useremail = useremail1;
+		userpassword = userpassword1;
+		userquestion = userquestion1;
+		useranswer = useranswer1;
+		
+		if(con!=null && stmt!=null)
+		{
+			i=stmt.executeUpdate("insert into user(username,useremailid,userpassword,usersecurityquestion,usersecurityanswer)values('"+username+"','"+useremail+"','"+userpassword+"','"+userquestion+"','"+useranswer+"') ");
+			if(i!=0)
+			{
+				 return true;
+			}
+			else
+			{
+				return false;
+			}
+		}
+		else
+		{
+			return false;
+			
+		}
+		
+		
+		
+	}
+	
+	public static int verifyUser(String email,String password)
+	{
+		useremail = email;
+		userpassword = password;
+		
+		try
+		{
+			rs= stmt.executeQuery("select * from user where useremailid='"+useremail+"' and userpassword='"+userpassword+"'");
+			while(rs.next())
+			{
+				userid= rs.getInt(1);
+				
+			}
+			if(userid!=0)
+			{
+				return userid;
+			}
+			else
+			{
+				return 0;
+			}
+		} 
+		catch (SQLException e) 
+		{
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return 0;
+		
+	}
+	
+	public static int resetUserPassword(String email,String question,String answer)
+	{
+		useremail = email;
+
+		
+		try
+		{
+			rs= stmt.executeQuery("select * from user where useremailid='"+useremail+"' and userpassword='"+userpassword+"'");
+			while(rs.next())
+			{
+				userid= rs.getInt(1);
+				
+			}
+			if(userid!=0)
+			{
+				return 1;
+			}
+			else
+			{
+				return 0;
+			}
+		} 
+		catch (SQLException e) 
+		{
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return 0;
+		
+	}
+
+
+}
